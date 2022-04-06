@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.game-name {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    margin: 40px auto;
+    text-shadow: 5px 10px 50px #f1f0ff;
+}
+
+.score-text {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    margin: 40px auto;
+    text-shadow: 5px 5px 30px #f1f0ff;    
+}
+
+.score-container {
+    text-align: center;
+    border: solid 2px white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.score-box {
+    border: solid 2px white;
+    margin: 50px auto;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+.score {
+    color: white;
+    font-family: 'Press start 2p';
+    font-size: 50px;
+    margin: 25px auto;
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    font-family: 'Press start 2p';
+    margin: 80px 0px;
+    position: relative;
+}
+
+.pick-container {
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pick-box {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
