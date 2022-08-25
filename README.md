@@ -1,1 +1,1 @@
-# rock-paper-scissors
+a very simple rock-paper-scissors game using javascript
